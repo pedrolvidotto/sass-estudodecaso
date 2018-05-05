@@ -1,0 +1,24 @@
+%padrao {
+    display: block;
+    text-align: center;
+}
+
+$x: 'true';
+@if $x == 'true' {
+    $tamanho_padrao: 10px;
+    
+    @each $nome, $tamanho in (contato,50px,),
+                             (ouvidoria,$tamanho_padrao) {
+        .form-#{$nome} {
+            padding: $tamanho;
+            @extend %padrao;
+            @if $nome == 'ouvidoria'{
+                float: center;
+            }  
+        }
+    }
+}
+@if  $x == 'false' {
+  
+}
+   

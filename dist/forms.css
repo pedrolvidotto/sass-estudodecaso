@@ -1,0 +1,12 @@
+.form-contato, .form-ouvidoria {
+  display: block;
+  text-align: center; }
+
+.form-contato {
+  padding: 50px; }
+
+.form-ouvidoria {
+  padding: 10px;
+  float: center; }
+
+/*# sourceMappingURL=forms.css.map */

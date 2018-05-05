@@ -1,0 +1,22 @@
+%padrao {
+    padding: 50px;
+    display: block;
+    text-align: center;
+}
+
+$x: 'true';
+
+    @if $x == 'true' {
+        .form-contato {
+            @extend %padrao;
+        }
+        .form-ouvidoria {
+            @extend %padrao;
+            float: center;
+        }
+    }
+   
+    @if  $x == 'false' {
+    
+    }
+  
