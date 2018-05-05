@@ -10,12 +10,13 @@ $borda_fina: 1px solid;
     background: #ccc;
     color: white;
     font-weight: bold;
-}
-.conteudo .mensagem.erro{
-    border: $borda_fina darkred;
-    background-color: indianred;
-}
-.conteudo .mensagem.sucesso{
-    border: $borda_fina darkgreen;
-    background-color: seagreen;
+
+    .erro{
+        border: $borda_fina darkred;
+        background-color: indianred;
+    }
+    .sucesso{
+        border: $borda_fina darkgreen;
+        background-color: seagreen;
+    }
 }

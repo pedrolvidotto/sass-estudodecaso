@@ -8,13 +8,11 @@
   background: #ccc;
   color: white;
   font-weight: bold; }
-
-.conteudo .mensagem.erro {
-  border: 1px solid darkred;
-  background-color: indianred; }
-
-.conteudo .mensagem.sucesso {
-  border: 1px solid darkgreen;
-  background-color: seagreen; }
+  .conteudo .mensagem .erro {
+    border: 1px solid darkred;
+    background-color: indianred; }
+  .conteudo .mensagem .sucesso {
+    border: 1px solid darkgreen;
+    background-color: seagreen; }
 
 /*# sourceMappingURL=conteudo.css.map */
