@@ -1,0 +1,21 @@
+/**
+ * Estilos CSS para tratamento de mensagens
+**/
+$borda_fina: 1px solid;
+
+.conteudo .mensagem{
+    padding: 20px;
+    margin: 10px;
+    border: $borda_fina #666;
+    background: #ccc;
+    color: white;
+    font-weight: bold;
+}
+.conteudo .mensagem.erro{
+    border: $borda_fina darkred;
+    background-color: indianred;
+}
+.conteudo .mensagem.sucesso{
+    border: $borda_fina darkgreen;
+    background-color: seagreen;
+}
